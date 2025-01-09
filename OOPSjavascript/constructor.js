@@ -20,4 +20,4 @@
 // console.log(rakeshAccount);
 
 // // property in class based variable
-// // function in class based in method based
+//  // function in class based in method based

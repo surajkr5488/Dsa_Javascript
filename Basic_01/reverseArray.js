@@ -13,6 +13,7 @@ function String(data, options) {
   }
   return dataArray.split(options).reverse().join(options);
 }
+
 const data = "hey suraj How are you";
 const dataArray = String(data, " ");
 console.log(dataArray, "fhjfhjhf");

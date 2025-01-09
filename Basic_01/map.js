@@ -9,14 +9,14 @@ for (const [key, value] of map) {
 
 // calculation with multiply  2
 const data = [2, 12, 52, 78, 16];
-// const doubledata = data.map(function (item) {
-//   return item * 2;
-// });
-// console.log(doubledata);
+const doubledata = data.map(function (item) {
+  return item * 2;
+});
+console.log(doubledata);
 
 // sort data and reverse the array
 
 data.sort(function (a, b) {
-  return b - a;
+  return a - b;
 });
 console.log(data);

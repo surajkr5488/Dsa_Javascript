@@ -9,6 +9,7 @@ const num = [
   11125,
   [22, 22, 2],
   [22322, 11, 2228, 225],
+  3,
 ];
 const data = num.map((datats) => {
   if (Array.isArray(datats)) {
